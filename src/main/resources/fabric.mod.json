@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mysql-jdbc",
+  "version": "${version}",
+  "name": "MySQL JDBC",
+  "description": "MySQL JDBC Driver for Fabric and Forge",
+  "authors": [
+    "Oracle Corporation",
+    "Kosmolot"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/mysql-jdbc",
+    "sources": "https://github.com/kosma/mysql-jdbc-mod",
+    "issues": "https://github.com/kosma/mysql-jdbc-mod/issues"
+  },
+  "license": "GPLv2 with FOSS Exception",
+  "icon": "icon.png"
+}

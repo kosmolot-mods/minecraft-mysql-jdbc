@@ -1,0 +1,12 @@
+[
+{
+  "modid": "mysql_jdbc",
+  "name": "MySQL JDBC",
+  "description": "MySQL JDBC Driver for Fabric and Forge",
+  "version": "${version}",
+  "mcversion": "",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/mysql-jdbc",
+  "authorList": ["Oracle Corporation", "Kosmolot"],
+  "logoFile": "icon.png"
+}
+]
