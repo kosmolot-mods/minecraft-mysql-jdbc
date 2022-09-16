@@ -1,0 +1,18 @@
+plugins {
+    id "java"
+}
+
+java {
+    archivesBaseName = "${rootProject.name}-${project.name}"
+    toolchain.languageVersion = JavaLanguageVersion.of(8)
+}
+
+dependencies {
+    implementation(project(':forge-1.13')) { transitive = false }
+    implementation(project(':forge-1.17')) { transitive = false }
+}
+
+jar {
+    // Exclude mocked net.minecraftforge.
+    exclude('net')
+}

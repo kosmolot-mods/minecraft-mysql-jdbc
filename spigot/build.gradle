@@ -1,0 +1,19 @@
+plugins {
+    id "java"
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+    maven { url 'https://oss.sonatype.org/content/repositories/central' }
+}
+
+java {
+    archivesBaseName = "${rootProject.name}-${project.name}"
+    toolchain.languageVersion = JavaLanguageVersion.of(8)
+}
+
+dependencies {
+    implementation 'org.spigotmc:spigot-api:1.12-R0.1-SNAPSHOT'
+}

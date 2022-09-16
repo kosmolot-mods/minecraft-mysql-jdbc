@@ -1,13 +1,14 @@
 modLoader="javafml"
 loaderVersion="[25,)"
-issueTrackerURL="https://github.com/kosma/mysql-jdbc-mod/issues"
-license="GPLv2 with FOSS Exception"
+issueTrackerURL="https://github.com/kosma/minecraft-jdbc-mod/issues"
+license="${mod_license}"
 
 [[mods]]
-modId="mysql_jdbc"
+modId="${mod_id}"
 version="${version}"
-displayName="MySQL JDBC"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/mysql-jdbc"
+displayName="${mod_name}"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/${mod_slug}"
 logoFile="icon.png"
-authors="Oracle Corporation, Kosmolot"
-description='''MySQL JDBC Driver for Fabric and Forge'''
+authors="${mod_vendor}, ${mod_author}"
+description='''${mod_description}'''
+displayTest="IGNORE_ALL_VERSION"

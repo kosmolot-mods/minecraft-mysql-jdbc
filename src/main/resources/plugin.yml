@@ -1,0 +1,6 @@
+name: ${mod_slug}
+main: pl.kosma.${mod_id}.SpigotPlugin
+description: ${mod_description}
+author: ${mod_vendor}, ${mod_author}
+website: https://www.curseforge.com/minecraft/mc-mods/${mod_slug}
+version: ${version}

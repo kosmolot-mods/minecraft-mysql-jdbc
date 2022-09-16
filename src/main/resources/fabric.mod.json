@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "mysql-jdbc",
+  "id": "${mod_slug}",
   "version": "${version}",
-  "name": "MySQL JDBC",
-  "description": "MySQL JDBC Driver for Fabric and Forge",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
   "authors": [
-    "Oracle Corporation",
-    "Kosmolot"
+    "${mod_vendor}",
+    "${mod_author}"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/mysql-jdbc",
-    "sources": "https://github.com/kosma/mysql-jdbc-mod",
-    "issues": "https://github.com/kosma/mysql-jdbc-mod/issues"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/${mod_slug}",
+    "sources": "https://github.com/kosma/minecraft-jdbc-mod",
+    "issues": "https://github.com/kosma/minecraft-jdbc-mod/issues"
   },
-  "license": "GPLv2 with FOSS Exception",
+  "license": "${mod_license}",
   "icon": "icon.png"
 }
