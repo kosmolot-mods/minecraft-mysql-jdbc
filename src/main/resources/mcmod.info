@@ -7,6 +7,6 @@
   "mcversion": "",
   "url": "https://www.curseforge.com/minecraft/mc-mods/${mod_slug}",
   "authorList": ["${mod_vendor}", "${mod_author}"],
-  "logoFile": "icon.png"
+  "logoFile": "${mod_slug}.png"
 }
 ]

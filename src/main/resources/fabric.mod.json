@@ -14,5 +14,5 @@
     "issues": "https://github.com/kosma/${mod_slug}-mod/issues"
   },
   "license": "${mod_license}",
-  "icon": "icon.png"
+  "icon": "${mod_slug}.png"
 }
