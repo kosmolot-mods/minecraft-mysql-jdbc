@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[25,)"
-issueTrackerURL="https://github.com/kosma/minecraft-jdbc-mod/issues"
+issueTrackerURL="https://github.com/kosma/${mod_slug}-mod/issues"
 license="${mod_license}"
 
 [[mods]]
